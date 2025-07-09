@@ -67,7 +67,8 @@
 
 .nav-links li .btn-primary:hover {
   background-color: #057cae;
-  border-color: #057cae;
+  color: white;
+  border-color: #d7f4f3;
 }
 
 /* Hamburger icon */

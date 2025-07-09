@@ -32,8 +32,8 @@ const Header = () => {
         <li><Link to="/about" onClick={() => setIsOpen(false)}><i className="fa-solid fa-circle-info" style={{ color: "#1fbcdb" }}></i> About</Link></li>
         <li><Link to="/explore" onClick={() => setIsOpen(false)}><i className="fa-solid fa-compass" style={{ color: "#1fbcdb" }}></i> Explore</Link></li>
         <li><Link to="/profile" onClick={() => setIsOpen(false)}><i className="fa-solid fa-user" style={{ color: "#1fbcdb" }}></i> Profile</Link></li>
-        <li><Link to="/login" onClick={() => setIsOpen(false)} className="btn btn-outline-primary">Login</Link></li>
-        <li><Link to="/register" onClick={() => setIsOpen(false)} className="btn btn-primary">Register</Link></li>
+        <li><Link to="/login" onClick={() => setIsOpen(false)} className="btn btn-outline-info text-light mx-5 d-flex justify-content-center">Login</Link></li>
+        <li><Link to="/register" onClick={() => setIsOpen(false)} className="btn btn-info text-light mx-5 d-flex justify-content-center">Register</Link></li>
       </ul>
 
       {/* Hamburger icon */}
