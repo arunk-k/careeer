@@ -5,9 +5,9 @@
   align-items: center;
   background-color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  padding: 10px 20px;
   position: relative;
   border-bottom: 1px solid #eee;
+  overflow-x: hidden;
 }
 
 /* Logo style */
@@ -21,21 +21,53 @@
 /* Nav links (desktop) */
 .nav-links {
   display: flex;
-  padding: 18px 30px;
-  gap: 25px;
+  margin: 12px;
+  gap: 20px;
   list-style: none;
+  align-items: center;
 }
 
 .nav-links li a {
   color: #333;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 .nav-links li a:hover {
   color: #0890c6;
+}
+
+/* Buttons */
+.nav-links li .btn {
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.nav-links li .btn-outline-primary {
+  color: #0890c6;
+  border: 1px solid #0890c6;
+  background-color: transparent;
+}
+
+.nav-links li .btn-outline-primary:hover {
+  background-color: #0890c6;
+  color: white;
+}
+
+.nav-links li .btn-primary {
+  background-color: #0890c6;
+  border: 1px solid #0890c6;
+  color: white;
+}
+
+.nav-links li .btn-primary:hover {
+  background-color: #057cae;
+  border-color: #057cae;
 }
 
 /* Hamburger icon */
@@ -47,12 +79,11 @@
   z-index: 1001;
 }
 
-/* Hide hamburger when drawer is open */
 .hide-icon {
   display: none !important;
 }
 
-/* Mobile drawer styles (default hidden) */
+/* Mobile Drawer */
 .nav-drawer {
   position: fixed;
   top: 0;
@@ -66,16 +97,14 @@
   gap: 20px;
   padding: 60px 20px 20px 20px;
   transform: translateX(100%);
-  transition: transform 0.8s ease;
+  transition: transform 0.7s ease;
   z-index: 1000;
 }
 
-/* Drawer open state */
 .nav-drawer.open {
   transform: translateX(0);
 }
 
-/* Drawer links */
 .nav-drawer li {
   list-style: none;
 }
@@ -83,7 +112,7 @@
 .nav-drawer li a {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -95,7 +124,7 @@
   color: #1fbcdb;
 }
 
-/* Drawer header (X icon) */
+/* Drawer header */
 .drawer-header {
   position: absolute;
   top: 10px;
@@ -109,7 +138,7 @@
   color: #fff;
 }
 
-/* Show drawer only on mobile */
+/* Responsive styles */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -117,5 +146,6 @@
 
   .menu-icon {
     display: block;
+    padding-right: 10px;
   }
 }
