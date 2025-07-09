@@ -1,0 +1,107 @@
+Navbar layout
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #155b95;
+  padding: 15px 20px;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Default nav links (horizontal) */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Hide nav-links & show hamburger on small screen */
+.hamburger {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Drawer */
+.drawer {
+  position: fixed;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #155b95;
+  color: white;
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.right-drawer {
+  right: -250px;
+}
+
+.right-drawer.open {
+  right: 0;
+}
+
+.drawer ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.drawer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.close-btn {
+  font-size: 26px;
+  cursor: pointer;
+  text-align: right;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ✅ Responsive part */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;     /* Hide desktop menu on mobile */
+  }
+
+  .hamburger {
+    display: block;    /* Show hamburger only on mobile */
+  }
+}
