@@ -18,6 +18,9 @@ const Header = () => {
           <a href="/"><i className="fa-solid fa-house" style={{ color: "#1fbcdb" }}></i> Home</a>
         </li>
         <li>
+          <a href="/"><i className="fa-solid fa-circle-info" style={{ color: "#1fbcdb" }}></i> About</a>
+        </li>
+        <li>
           <a href="/explore"><i className="fa-solid fa-compass" style={{ color: "#1fbcdb" }}></i> Explore</a>
         </li>
         <li>
