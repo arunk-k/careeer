@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <div className="login-page d-flex align-items-center justify-content-center">
       <div className="login-card shadow p-4 rounded-4">
-        <h2 className="text-center mb-4 text-primary">Welcome Back</h2>
+        <h2 style={{color:"#0890c6"}} className="text-center mb-4">Welcome Back</h2>
         <p className="text-center text-muted mb-4">Login to your CareerWay+ account</p>
 
         <form>
@@ -28,11 +28,11 @@ const Login = () => {
             <Link to="/forgot" className="small text-primary">Forgot password?</Link>
           </div>
 
-          <button type="submit" className="btn btn-primary w-100">Login</button>
+          <button id="logBtn" type="submit" className="btn text-light w-100">Login</button>
         </form>
 
         <p className="mt-4 text-center">
-          Don’t have an account? <Link to="/register" className="text-info">Register</Link>
+          Don’t have an account? <Link to="/register" className="text-primary">Register</Link>
         </p>
       </div>
     </div>

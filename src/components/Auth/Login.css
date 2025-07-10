@@ -20,6 +20,19 @@
 }
 
 /* Button hover */
-.login-card .btn-primary:hover {
-  background-color: #057cae;
+#logBtn {
+  background: linear-gradient(to right, #6ccdf4, #07516e);
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+#logBtn:hover {
+  background: linear-gradient(to right, #44a8cc, #057cae);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
