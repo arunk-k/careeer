@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Suggest.css';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const interestsList = [
   { label: "Coding", value: "coding" },
@@ -49,14 +49,7 @@ const Suggest = () => {
           ))}
         </div>
 
-        <div className="text-center mt-5">
-          <button
-            type="submit"
-            disabled={selected.length === 0}
-            className="btn btn-primary px-4 py-2"
-          >
-            Suggest Careers
-          </button>
+        <div className="text-center mt-5"><Link to="/explore" className="btn btn-outline-primary px-4 py-2">Suggest Careers</Link>
         </div>
       </form>
     </div>

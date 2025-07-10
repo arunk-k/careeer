@@ -31,7 +31,7 @@ const Home = () => {
       {/* Features Section */}
       <section className="features-section">
         <h2>What You Can Do</h2>
-        <div className="features-grid">
+        <div className="features-grid mb-3">
           <div className="feature-card">
             <i className="fa-solid fa-road"></i>
             <h3>Career Roadmaps</h3>

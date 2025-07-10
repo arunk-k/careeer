@@ -14,7 +14,7 @@ const Explore = () => {
       {/* Smart Suggest Button */}
       <div className="text-center mb-5">
         <Link to="/suggest" className="btn btn-outline-primary px-4 py-2">
-           Get Smart Career Suggestions
+         <i class="fa-solid fa-lightbulb fa-lg"></i> Get Smart Career Suggestions
         </Link>
       </div>
 

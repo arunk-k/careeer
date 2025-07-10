@@ -24,9 +24,9 @@ const Footer = () => {
           <h4>Features</h4>
           <ul>
             <li><a href="#">Career Roadmaps</a></li>
-            <li><a href="#">Skill Learning</a></li>
             <li><a href="#">Resume Builder</a></li>
             <li><a href="#">Suggestions</a></li>
+            <li><a href="#">Contact Us</a></li>
           </ul>
         </div>
 
