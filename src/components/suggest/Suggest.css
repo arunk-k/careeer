@@ -1,0 +1,39 @@
+.suggest-page {
+  min-height: 100vh;
+  background: #f7fbfc;
+}
+
+.interest-card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.interest-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 144, 198, 0.1);
+}
+
+.interest-card.selected {
+  border: 2px solid #0890c6;
+  background: #e9f9ff;
+  color: #0890c6;
+}
+
+/* Submit button */
+button[type="submit"] {
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

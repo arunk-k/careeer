@@ -1,0 +1,30 @@
+.explore-page {
+  background: #f8fbfd;
+  min-height: 100vh;
+}
+
+.explore-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.explore-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 144, 198, 0.2);
+}
+
+/* Smart Suggest Button */
+.btn-outline-primary {
+  border: 2px solid #0890c6;
+  color: #0890c6;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0890c6;
+  color: white;
+  transform: scale(1.05);
+}

@@ -1,0 +1,19 @@
+.developer-roadmap {
+  background: #f8fbfd;
+}
+
+.roadmap-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
+}
+
+.roadmap-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 144, 198, 0.2);
+}
+
+.ratio iframe {
+  border-radius: 10px;
+  border: none;
+}
