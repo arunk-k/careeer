@@ -3,7 +3,6 @@
 
 # Frontend – `README.md`
 
-```md
 # Book Review Board - Frontend
 
 This is the **frontend** for the Book Review Board web application.  
@@ -29,10 +28,40 @@ The frontend communicates with the backend API to allow users to register, login
 
 ---
 
-## ⚙ Environment Variables (.env)
+frontend/
+|-- src/
+|   |-- components/     # Shared UI components
+|   |-- context/        # AuthContext
+|   |-- features/       # Redux slices & thunks
+|   |-- pages/          # Pages (Books, BookDetails, Auth, AddBook)
+|   |-- services/       # API services
+|   |-- App.jsx         # App entry
+|-- public/
+|-- package.json
 
-Create `.env` in frontend root:
+## Setup Instructions
 
-```env
-VITE_API_BASE_URL=http://localhost:3214/api
-VITE_APP_NAME=Book Review Board
+1. Clone the repo:
+   -git clone https://github.com/arunk-k/frontend.git
+   -cd frontend
+
+2.Install dependencies:
+   -npm install
+3.Start server:
+   -node index.js/nodemon
+
+## Screenshots
+
+### Home Page
+![Home Page](./screenshots/homepage.png)
+
+### Login Page
+![Login Page](./screenshots/login.png)
+
+### Book Details
+![Book Details](./screenshots/bookdetails.png)
+
+
+
+
+
