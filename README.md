@@ -53,7 +53,7 @@ frontend/
 ## Screenshots
 
 ### Home Page
-![Home Page](./Screenshot(19).png)
+![Home Page](./trogon.png)
 
 ### Login Page
 ![Login Page](./screenshots/login.png)
