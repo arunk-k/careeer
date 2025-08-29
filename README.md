@@ -1,10 +1,10 @@
 
 ---
 
-# 🎨 Frontend – `README.md`
+# Frontend – `README.md`
 
 ```md
-# 📖 Book Review Board - Frontend
+# Book Review Board - Frontend
 
 This is the **frontend** for the Book Review Board web application.  
 It is built with **React (Vite)**, **Redux Toolkit**, and **React Router DOM**.  
@@ -12,7 +12,7 @@ The frontend communicates with the backend API to allow users to register, login
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 - **React (Vite)** – Fast React setup
 - **Redux Toolkit** – State management
 - **React Router DOM** – Routing
@@ -22,14 +22,14 @@ The frontend communicates with the backend API to allow users to register, login
 
 ---
 
-## 🌐 API Base URL
+##  API Base URL
 
 - **Local Development** → `http://localhost:3214/api`  
 - **Production (Render)** → `https://backendsr-gq8f.onrender.com/api`
 
 ---
 
-## ⚙️ Environment Variables (.env)
+## ⚙ Environment Variables (.env)
 
 Create `.env` in frontend root:
 
