@@ -56,10 +56,10 @@ frontend/
 ![Home Page](./trogon.png)
 
 ### Login Page
-![Login Page](./screenshots/login.png)
+![Login Page](./chek1.png)
 
 ### Book Details
-![Book Details](./screenshots/bookdetails.png)
+![Book Details](./chek1.png)
 
 
 
