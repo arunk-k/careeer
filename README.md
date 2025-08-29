@@ -29,15 +29,16 @@ The frontend communicates with the backend API to allow users to register, login
 ---
 
 frontend/
-|-- src/
-|   |-- components/     # Shared UI components
-|   |-- context/        # AuthContext
-|   |-- features/       # Redux slices & thunks
-|   |-- pages/          # Pages (Books, BookDetails, Auth, AddBook)
-|   |-- services/       # API services
-|   |-- App.jsx         # App entry
-|-- public/
-|-- package.json
+├── src/
+│   ├── components/     # Shared UI components
+│   ├── context/        # AuthContext
+│   ├── features/       # Redux slices & thunks
+│   ├── pages/          # Pages (Books, BookDetails, Auth, AddBook)
+│   ├── services/       # API services
+│   └── App.jsx         # App entry
+├── public/
+└── package.json
+
 
 ## Setup Instructions
 
