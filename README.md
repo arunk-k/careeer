@@ -7,7 +7,7 @@
 
 This is the **frontend** for the Book Review Board web application.  
 It is built with **React (Vite)**, **Redux Toolkit**, and **React Router DOM**.  
-The frontend communicates with the backend API to allow users to register, login, add books, and write reviews.
+The frontend communicates with the backend API to allow users to register, login, add books, browse books, view book details, and write reviews.
 
 ---
 
