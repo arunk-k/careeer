@@ -41,15 +41,16 @@ frontend/
 
 ## Setup Instructions
 
-1. Clone the repo:
-   -git clone https://github.com/arunk-k/frontend.git
-   -cd frontend
+1. Clone the repo and move into the folder  
+2. Install dependencies  
+3. Start the frontend  
 
-2.Install dependencies:
-   -npm install
-3.Start server:
-   -node index.js/nodemon
-
+```cmd
+git clone https://github.com/arunk-k/frontend.git
+cd frontend
+npm install
+npm run dev
+```
 ## Screenshots
 
 ### Home Page
